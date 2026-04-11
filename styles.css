@@ -20,7 +20,7 @@
 }
 
 @font-face {
-  font-family: "TimesNewRomanItalic";
+  font-family: "SHKAIDA";
   src: url("Fonts/SHKAida-LightItalic.otf") format("truetype");
   font-weight: 400;
   font-style: italic;
@@ -165,7 +165,7 @@ body {
 
 #heroGreeting {
   margin: 0;
-  font-family: "TimesNewRomanItalic", "Times New Roman", Times, serif;
+  font-family: "SHKAIDA";
   font-style: italic;
   font-weight: 400;
   font-size: 75px;
