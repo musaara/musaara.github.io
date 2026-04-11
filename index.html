@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Վերջին Զանգ 2026 | 12Է Դասարան</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="invitation-page">
+    <section class="page page-hero" id="page1">
+      <img class="detal" src="IMG/Detal.png" alt="Դասարանի հիշողություն">
+
+      <div class="hero-layout">
+        <div class="hero-polaroids">
+          <figure class="polaroid polaroid-hero polaroid-hero-1">
+            <img id="heroPolaroidOne" src="IMG/FIrst%20page%20photo%201.png" alt="Դասարանի հիշողություն">
+          </figure>
+          <figure class="polaroid polaroid-hero polaroid-hero-2">
+            <img id="heroPolaroidTwo" src="IMG/First%20page%20photo%202.png" alt="Դասարանի հիշողություն">
+          </figure>
+        </div>
+        <article class="hero-letter">
+          <h1 id="heroGreeting" aria-live="polite"></h1>
+          <p id="heroInvite">
+            Սիրով հրավիրում ենք 12Է դասարան մեզ հետ միասին մասնակցելու «Վերջին զանգ»-ի հանդիսավոր միջոցառմանը։
+          </p>
+          <p id="heroPersonalWish" class="hero-personal-wish" hidden></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="page page-story" id="page2">
+      <div class="story-layout">
+        <figure class="polaroid polaroid-story">
+          <img id="storyPolaroid" src="IMG/Second%20page%20Photo.png" alt="Մեր հիշողությունների էջերից">
+        </figure>
+        <article class="story-copy">
+          <h2>ՄԵՐ ՊԱՏՄՈՒԹՅԱՆ ՎԵՐՋԻՆ ԷՋԸ ԴՊՐՈՑՈՒՄ</h2>
+          <p>
+            Այս կարևոր օրը ցանկանում ենք կիսել հենց ձեզ հետ, լինել միասին, հիշել անցած ճանապարհը
+            և նշել մեր կյանքի նոր փուլի սկիզբը։
+          </p>
+          <p>
+            Մեզ համար շատ կարևոր է ձեր ներկայությունը, և մենք անկեղծ ուրախ կլինենք, եթե միանաք մեզ ու դառնաք
+            այս գեղեցիկ պահի մի մասը։
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="page page-timer" id="page3">
+      <p class="timer-title">Մինչ հանդիպումը մնացել է</p>
+      <div class="timer-digits" aria-label="Հետհաշվարկ">
+        <span id="daysValue" class="digit">00</span>
+        <span class="separator">:</span>
+        <span id="hoursValue" class="digit">00</span>
+        <span class="separator">:</span>
+        <span id="minutesValue" class="digit">00</span>
+        <span class="separator">:</span>
+        <span id="secondsValue" class="digit">00</span>
+      </div>
+      <div class="timer-labels" aria-hidden="true">
+        <span>օր</span>
+        <span>ժամ</span>
+        <span>րոպե</span>
+        <span>վայրկյան</span>
+      </div>
+    </section>
+
+    <section class="page page-students" id="students">
+      <div id="studentsGrid" class="students-collage" aria-live="polite"></div>
+    </section>
+
+    <section class="page page-group">
+      <img id="groupPhoto" class="group-photo" src="IMG/LAST%20PAGE%20photo.png" alt="12Է դասարանի խմբակային լուսանկար">
+    </section>
+  </main>
+
+  <script src="data/students-db.js"></script>
+  <script src="data/teachers-db.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
