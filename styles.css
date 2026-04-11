@@ -291,7 +291,7 @@ body {
 
 .timer-title {
   margin: 0;
-  font-family: "MontserratArm", "FreeSans", sans-serif;
+  font-family: "MontserratArm";
   font-size: 30px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -324,7 +324,7 @@ body {
 }
 
 .separator {
-  font-family: "MontserratArm", "FreeSans", sans-serif;
+  font-family: "MontserratArm";
   font-size: clamp(2.2rem, 6vw, 110px);
   color: #9186df;
 }
@@ -344,7 +344,7 @@ body {
 }
 
 .timer-labels span {
-  font-family: "MontserratArm", "FreeSans", sans-serif;
+  font-family: "MontserratArm";
   font-size: 30px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
