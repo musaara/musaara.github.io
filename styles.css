@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "TimesNewRomanItalic";
+  src: url("Fonts/Times New Roman Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
 :root {
   --violet-main: #6850d2;
   --violet-deep: #6850d2;
@@ -158,7 +165,7 @@ body {
 
 #heroGreeting {
   margin: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "TimesNewRomanItalic", "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: 400;
   font-size: 85px;
@@ -584,7 +591,7 @@ body {
   }
 
   #heroGreeting {
-    font-size: 29px;
+    font-size: 27px;
     line-height: 0.96;
     min-height: 1em;
   }
