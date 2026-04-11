@@ -52,7 +52,7 @@ body {
 }
 
 body {
-  font-family: "FreeSans", "Sylfaen", sans-serif;
+  font-family: "FreeSans";
   background: linear-gradient(170deg, #2f2582 0%, #4732aa 45%, #2f2582 100%);
   color: var(--ink-light);
 }
@@ -188,7 +188,7 @@ body {
 
 #heroInvite {
   margin: clamp(0.8rem, 1.8vw, 1.45rem) 0 0;
-  font-family: "FreeSans", "Sylfaen", sans-serif;
+  font-family: "FreeSans";
   font-size: 31px;
   line-height: 1.36;
   max-width: 780px;
@@ -197,7 +197,7 @@ body {
 
 .hero-personal-wish {
   margin: clamp(0.7rem, 1.5vw, 1rem) 0 0;
-  font-family: "FreeSans", "Sylfaen", sans-serif;
+  font-family: "FreeSans";
   font-size: clamp(0.95rem, 2.1vw, 24px);
   line-height: 1.35;
   color: rgba(246, 242, 255, 0.95);
@@ -267,7 +267,7 @@ body {
 
 .story-copy h2 {
   margin: 0;
-  font-family: "FreeSans", "Sylfaen", sans-serif;
+  font-family: "FreeSans";
   font-weight: 400;
   font-size: 60px;
   line-height: 1.06;
@@ -275,7 +275,7 @@ body {
 
 .story-copy p {
   margin: clamp(0.95rem, 2vw, 1.25rem) 0 0;
-  font-family: "FreeSans", "Sylfaen", sans-serif;
+  font-family: "FreeSans";
   font-weight: 400;
   font-size: 31px;
   line-height: 1.34;
@@ -352,7 +352,7 @@ body {
 
 .countdown-status {
   margin: clamp(0.7rem, 1.8vw, 1.2rem) 0 0;
-  font-family: "FreeSans", "Sylfaen", sans-serif;
+  font-family: "FreeSans";
   font-size: clamp(0.96rem, 2.1vw, 24px);
   color: #43397d;
 }
@@ -365,7 +365,7 @@ body {
 .students-title {
   margin: 0;
   text-align: center;
-  font-family: "FreeSans", "Sylfaen", sans-serif;
+  font-family: "FreeSans";
   font-size: clamp(1.35rem, 3.8vw, 2.5rem);
   font-weight: 400;
   color: #f6f4ff;
@@ -443,7 +443,7 @@ body {
 
 .class-teacher-copy h2 {
   margin: 0;
-  font-family: "FreeSans", "Sylfaen", sans-serif;
+  font-family: "FreeSans";
   font-size: clamp(1.8rem, 4.6vw, 54px);
   font-weight: 400;
   line-height: 1.12;
@@ -451,7 +451,7 @@ body {
 
 .class-teacher-copy p {
   margin: clamp(0.7rem, 1.8vw, 1.2rem) 0 0;
-  font-family: "FreeSans", "Sylfaen", sans-serif;
+  font-family: "FreeSans";
   font-size: clamp(1.05rem, 2.3vw, 30px);
   line-height: 1.4;
   color: #e7e2ff;
