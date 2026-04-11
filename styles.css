@@ -591,7 +591,7 @@ body {
   }
 
   #heroGreeting {
-    font-size: 27px;
+    font-size: 25px;
     line-height: 0.96;
     min-height: 1em;
   }
@@ -676,7 +676,7 @@ body {
 
   .digit {
     min-width: 1.34ch;
-    font-size: 145px;
+    font-size: 285px;
   }
 
   .separator {
