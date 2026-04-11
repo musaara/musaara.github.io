@@ -661,8 +661,8 @@ body {
   }
 
   .timer-title {
-    font-size: 9px;
-        margin-bottom: 10px;
+    font-size: 12px;
+        margin-bottom: 25px;
   }
 
   .page-timer {
@@ -689,7 +689,7 @@ body {
   }
 
   .timer-labels span {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .students-collage {
